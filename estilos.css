@@ -64,6 +64,7 @@ list-style: none;
 	background-image: url(ECBTI.png);
 	position: relative;
 	background-size: cover;
+	z-index:-10;
 	
 
 }
@@ -71,6 +72,7 @@ list-style: none;
 	display: block;
 	float: left;
 	z-index: -10;
+	z-index:-10;
 }
 #twitter{
 	width: 40%;
@@ -78,7 +80,7 @@ list-style: none;
 	background-color: cyan;
 	float: right;
 	position: relative;
-	
+	z-index:-10;
 	
 }
 #oviob{
@@ -90,8 +92,7 @@ list-style: none;
 	margin-left: 40px;
 	padding-top: 10px;
 	margin-top: 20px;
-
-	
+	z-index:-10;
 }
 #cursob {
 	background-color: #50b748;
@@ -102,9 +103,7 @@ list-style: none;
 	height: 346px;
 	padding-top: 10px;
 	margin-top: 20px;
-	
-	
-
+	z-index:-10;
 }
 #tematic {
 	background-color: #a54686;
@@ -115,7 +114,7 @@ list-style: none;
 	height: 346px;
 	padding-top: 10px;
 	margin-top: 20px;
-
+	z-index:-10;
 }
 #ulto{
 	width: 100%;
@@ -126,7 +125,7 @@ list-style: none;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: white;
-	
+	z-index:-10;	
 }
 .desplegable{
 z-index:10;
