@@ -7,11 +7,13 @@ width: 30%
 }
 #divsup {
 	margin: auto;
-	width: 100%
+	width: 100%;
+	z-index:10;
 }
 .desplegable{
 	background-color: #005883;
 	height: 24.5px;
+	z-index:10;
 	
 }
 .desplegable li a{
@@ -21,17 +23,20 @@ width: 30%
 	margin-left: 9px;
 	padding:3px 3px;
 	display: block;
+	z-index:10;
 	
 	
 }
 .desplegable > li{
 	float: left;
+	z-index:10;
 	
 }
 .desplegable li a:hover{
 	border-left-style: solid;
 	border-left-color: #f47920;
 	background-color: #f0b429;
+	z-index:10;
 	
 
 }
@@ -41,12 +46,15 @@ list-style: none;
 .desplegable li ul{
 	display: none;
 	position: absolute;
+	z-index:10;
 }
 .desplegable li:hover > ul{
 	display:block;
+	z-index:10;
 }
 .desplegable li ul li{
 	position: relative;
+	z-index:10;
 }
 #general{
 	width: 60%;
