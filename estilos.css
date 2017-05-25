@@ -8,7 +8,7 @@ width: 30%
 #divsup {
 	margin: auto;
 	width: 100%
-
+	z-index:10;
 }
 .desplegable{
 	background-color: #005883;
