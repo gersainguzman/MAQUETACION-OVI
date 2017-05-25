@@ -136,3 +136,117 @@ list-style: none;
 .desplegable{
 z-index:10;
 }
+@media (max-width: 720px){
+	
+	#divsup {
+	margin: auto;
+	width: 100%;
+	z-index:10;
+	}
+	.desplegable{
+	background-color: #005883;
+	height: 120px;
+	z-index:10;
+	}
+
+	.desplegable li a{
+	display:inline-block;
+	z-index:10;
+	}
+
+	.desplegable > li{
+	float: none;
+	width: 100%;
+	z-index:10;}
+
+	.desplegable li ul{
+	display: none;
+	position: absolute;
+	z-index:10;}
+
+	.desplegable li:hover > ul{
+	display:none;
+	z-index:10;}
+	.desplegable li a:hover{
+	border-left-style: solid;
+	border-left-color: #f47920;
+	background-color: #005883;
+	border-left-width: 10px;
+	z-index:10;}
+
+	header img{
+	content: url(logoUNADMobile.png);
+	width:100%;
+	 max-width:300px;
+	}
+	header{
+		background-color: #005883;
+		text-align: center;
+		border-bottom-style: solid;
+		border-color: white;
+	}
+	#general{
+	width: 100%;
+	height: auto;
+	float: none;
+	background-color: #999);
+	position: relative;
+	z-index:-10;
+	color: white;}
+
+	#general embed{
+	margin-left: auto;
+	width: 100%;
+	}
+
+
+	#general article{
+	display:inline-flex;
+	float: none;
+	z-index: -10;
+	
+	}
+	#twitter{
+	width: 100%;
+	height: auto;
+	float: none;
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+		
+	}
+	#oviob{
+	background-color: #43c7f4;
+	border-radius: 0%;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	margin-top: 20px;
+	z-index:-10;
+	}
+	#cursob {
+	background-color: #50b748;
+	border-radius: 0%;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	margin-top: 0px;
+	z-index:-10;
+	}
+	#tematic {
+	background-color: #a54686;
+	border-radius: 0%;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	margin-top: 0px;
+	z-index:-10;
+
+	}
+}
