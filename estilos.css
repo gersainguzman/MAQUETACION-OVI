@@ -8,7 +8,6 @@ width: 30%
 #divsup {
 	margin: auto;
 	width: 100%
-	z-index:10;
 }
 .desplegable{
 	background-color: #005883;
@@ -33,7 +32,7 @@ width: 30%
 	border-left-style: solid;
 	border-left-color: #f47920;
 	background-color: #f0b429;
-	z-index:10;
+	
 
 }
 ul, ol{
@@ -57,11 +56,13 @@ list-style: none;
 	position: relative;
 	background-size: cover;
 	z-index:1;
+	z-index:-10;
 
 }
 #general article{
 	display: block;
 	float: left;
+	z-index:-10;
 }
 #twitter{
 	width: 40%;
@@ -69,7 +70,7 @@ list-style: none;
 	background-color: cyan;
 	float: right;
 	position: relative;
-	
+	z-index:-10;
 }
 #oviob{
 	background-color: #43c7f4;
@@ -80,6 +81,7 @@ list-style: none;
 	margin-left: 40px;
 	padding-top: 10px;
 	margin-top: 20px;
+	z-index:-10;
 	
 }
 #cursob {
@@ -91,6 +93,7 @@ list-style: none;
 	height: 346px;
 	padding-top: 10px;
 	margin-top: 20px;
+	z-index:-10;
 	
 
 }
@@ -103,6 +106,7 @@ list-style: none;
 	height: 346px;
 	padding-top: 10px;
 	margin-top: 20px;
+	z-index:-10;
 }
 #ulto{
 	width: 100%;
@@ -113,6 +117,9 @@ list-style: none;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: white;
+	z-index:-10;
 
-
+}
+.desplegable{
+	z-index:10;
 }
