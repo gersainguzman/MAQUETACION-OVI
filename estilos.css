@@ -9,6 +9,7 @@ width: 30%
 	margin: auto;
 	width: 100%;
 	z-index: 10;
+	z-index:10;
 
 }
 .desplegable{
@@ -22,15 +23,18 @@ width: 30%
 	margin-left: 9px;
 	padding:3px 3px;
 	display: block;
+	z-index:10;
 	
 }
 .desplegable > li{
 	float: left;
+	z-index:10;
 }
 .desplegable li a:hover{
 	border-left-style: solid;
 	border-left-color: #f47920;
 	background-color: #f0b429;
+	z-index:10;
 
 }
 ul, ol{
@@ -40,12 +44,15 @@ z-index: 10;
 .desplegable li ul{
 	display: none;
 	position: absolute;
+	z-index:10;
 }
 .desplegable li:hover > ul{
 	display:block;
+	z-index:10;
 }
 .desplegable li ul li{
 	position: relative;
+	z-index:10;
 }
 #general{
 	width: 60%;
