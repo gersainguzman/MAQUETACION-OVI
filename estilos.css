@@ -77,9 +77,10 @@ list-style: none;
 #twitter{
 	width: 40%;
 	height: 500px;
-	background-color: cyan;
 	float: right;
 	position: relative;
+	z-index:10;
+	
 	
 }
 #oviob{
