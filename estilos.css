@@ -27,12 +27,13 @@ width: 30%
 }
 .desplegable > li{
 	float: left;
-	z-index:10;
+	
 }
 .desplegable li a:hover{
 	border-left-style: solid;
 	border-left-color: #f47920;
 	background-color: #f0b429;
+	z-index:10;
 
 }
 ul, ol{
